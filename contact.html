@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shoping website</title>
+    <script src="https://kit.fontawesome.com/8043eee895.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section id="header">
+        <!-- <header> -->
+            <a href="#"><img src="img/logo5.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                    <li id="shop-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+              <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+              <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+   
+    <section id="shop_page" class="contact-page">
+        <h4>#let's_talk</h4>
+        <p>LEAVE A MESSAGE.We love to  hear from you!</p>
+     </section>
+     <section id="contact-details" class="section_p1">
+       <div class="details">
+        <span>GET IN TOUCH</span>
+        <h2>Visit One of our agency locations or contact us today</h2>
+        <h3>Head Office</h3>
+        <div>
+            <li>
+                <i class="fa-solid fa-map"></i>
+                <p>55 Nangla Street Bhadana chowk Fariadabad</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-envelope"></i>
+                <p>@name12345@gmail.com</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-square-phone"></i>
+                <p>120-23********</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-clock"></i>
+                <p>Monday to Friday: 9:00 to 20.pm</p>
+            </li>
+        </div>
+       </div>
+       <div class="map">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14044.001866458868!2d77.26162522041902!3d28.35883550306741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdeb15f264ee1%3A0xf62007efbc604ac2!2sNangla%20Gujran%2C%20Faridabad%2C%20Haryana!5e0!3m2!1sen!2sin!4v1656509390368!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+       </div>
+     </section>
+     <section id="form">
+        <form action="contact.php" method="post">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="text" id="email" name="email" placeholder="Email" required>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            <textarea  name="message" id="message" cols="30" rows="10">Your Message</textarea>
+            <button type="submit" class="normal">Submit</button>
+        </form>
+        <div class="agent">
+            <div>
+                <img src="img/people/1.png" alt="">
+                <p><span>JOHN DOE </span> Marketing Manager<br> Phone: +012234567875 
+                <br> Email: name123@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/people/2.png" alt="">
+                <p><span>SIMMAH JOE</span>Junior Marketing Manager<br> Phone: +012234567875 
+                <br> Email: name123@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/people/3.png" alt="">
+                <p><span>TREHAN TOE</span> Sales Manager<br> Phone: +012234567875 
+                <br> Email: name123@gmail.com</p>
+            </div>
+
+        </div>
+     </section>
+     <section id="newsletter" class="section_p1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <footer class="section_p1">
+        <div class="column">
+            <img  class="logo" src="img/logo5.png" alt="">
+            <h4>contact</h4>
+            <p><strong>Address: </strong> 55 whirlphool road, street 32, fariadabad Haryana</p>
+            <p><strong>Phone: </strong> +01 2222 365 /(+91) 0123456789</p>
+            <p><strong>Hours: </strong> 9:00  - 20:00, Mon - Fri</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-printerest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <h4>About</h4>
+                <a href="#">About Us            </a>
+                <a href="#">Delivery information</a>
+                <a href="#">Privacy Policy      </a>
+                <a href="#">Terms & Conditions  </a>
+                <a href="#">Contact Us          </a>
+        </div>
+        <div class="column">
+            <h4>My Account</h4>
+                <a href="#">Sign In       </a>
+                <a href="#">View Cart     </a>
+                <a href="#">My Wishlist   </a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help          </a>
+        </div>
+        <div class="column install">
+            <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p> © 2022, rahul etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+
+</body>
+</html>
